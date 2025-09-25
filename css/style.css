@@ -2,7 +2,7 @@ body{
     margin:0;
     font-family: system-ui;
     margin-bottom: 80px;
-    
+
 }
 
 .hero {
@@ -29,7 +29,7 @@ body{
     flex-wrap: wrap; /* allows wrapping on small screens */
 }
 .project-card {
-    background: #f5f5f5;
+    background-color: #e66815;
     padding: 1rem;
     border-radius: 8px;
     flex: 1 1 0;
