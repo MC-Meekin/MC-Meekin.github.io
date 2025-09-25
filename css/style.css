@@ -7,7 +7,7 @@ body{
 
 .hero {
 
-    background-color: #e66815;
+    background-color: #fd932f;
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -29,7 +29,7 @@ body{
     flex-wrap: wrap; /* allows wrapping on small screens */
 }
 .project-card {
-    background-color: #e66815;
+    background-color: #fd932f;
     padding: 1rem;
     border-radius: 8px;
     flex: 1 1 0;
@@ -40,4 +40,22 @@ body{
 .project-card img {
     max-width: 100%;
     border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181818;
+    color: #f5f5f5;
+  }
+  .hero {
+    background-color: #be5600;
+    color: #fff;
+  }
+  .project-card {
+    background-color: #be5600;
+    color: #fff;
+  }
+  .container {
+    background-color: transparent;
+  }
 }
