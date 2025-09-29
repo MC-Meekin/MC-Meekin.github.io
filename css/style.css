@@ -2,8 +2,6 @@ body{
     margin:0;
     font-family: system-ui;
     margin-bottom: 80px;
-    margin-left: 5px;
-    margin-right: 5px;
 
 }
 
@@ -21,8 +19,8 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .projects-row {
